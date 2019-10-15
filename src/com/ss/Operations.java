@@ -18,4 +18,8 @@ public class Operations {
     public int mult(int firstValue, int secondValue) {
         return firstValue * secondValue;
     }
+
+    public double sqrt(int firstValue) {
+        return Math.sqrt(firstValue);
+    }
 }
