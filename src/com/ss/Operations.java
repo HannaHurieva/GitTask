@@ -9,4 +9,9 @@ public class Operations {
     public int sub(int firstValue, int secondValue) {
         return firstValue - secondValue;
     }
+
+    public int div(int firstValue, int secondValue) {
+        if (secondValue == 0) throw new ArithmeticException("Cannot be divided by zero");
+        return firstValue / secondValue;
+    }
 }
