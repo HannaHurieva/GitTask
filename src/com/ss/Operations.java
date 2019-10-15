@@ -3,6 +3,7 @@ package com.ss;
 public class Operations {
 
     public int add(int firstValue, int secondValue) {
+        System.out.println ("This is add method");
         return firstValue + secondValue;
     }
 
