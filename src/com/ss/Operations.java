@@ -3,8 +3,13 @@ package com.ss;
 public class Operations {
 
     public int add(int firstValue, int secondValue) {
-        System.out.println ("This is add method");
+        System.out.println("This is add method");
         return firstValue + secondValue;
+    }
+
+    public int add(int firstValue, int secondValue, int thirdValue) {
+        System.out.println("This is add method for 3 params");
+        return firstValue + secondValue + thirdValue;
     }
 
     public int sub(int firstValue, int secondValue) {
