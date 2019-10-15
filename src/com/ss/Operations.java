@@ -14,4 +14,8 @@ public class Operations {
         if (secondValue == 0) throw new ArithmeticException("Cannot be divided by zero");
         return firstValue / secondValue;
     }
+
+    public int mult(int firstValue, int secondValue) {
+        return firstValue * secondValue;
+    }
 }
